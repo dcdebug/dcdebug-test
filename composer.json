@@ -1,5 +1,5 @@
 {
-    "name": "hello/test",
+    "name": "dcdebug/test",
     "description": "only print some debug information",
     "type": "library",
     "license": "MIT",
