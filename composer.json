@@ -1,0 +1,21 @@
+{
+    "name": "hello/test",
+    "description": "only print some debug information",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hello\\Test\\": "src/Hello/Test",
+            "Hello\\Debugs\\": "scr/Hello/Debugs",
+            "Hello\\ABC\\": "src/Hello/ABC"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ethan",
+            "email": "chengyue.wang@iservernetwork.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
