@@ -1,20 +1,12 @@
 {
     "name": "dcdebug/test",
-    "description": "only print some debug information",
+    "description": "only debug",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Hello\\Test\\": "src/Hello/Test",
-            "Hello\\Debugs\\": "scr/Hello/Debugs",
-            "Hello\\ABC\\": "src/Hello/ABC"
+            "Dcdebug\\Test\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Ethan",
-            "email": "chengyue.wang@iservernetwork.com"
-        }
-    ],
     "require": {}
 }
